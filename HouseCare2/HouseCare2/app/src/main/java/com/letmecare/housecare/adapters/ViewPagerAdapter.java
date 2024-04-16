@@ -6,11 +6,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.letmecare.housecare.fragment.DiscountFragment;
 import com.letmecare.housecare.fragment.HomeFragment;
-import com.letmecare.housecare.fragment.PayFragment;
 import com.letmecare.housecare.fragment.PersonalFragment;
-import com.letmecare.housecare.fragment.WorksListFragment;
+import com.letmecare.housecare.fragment.RatingFragment;
 
 public class ViewPagerAdapter extends FragmentStatePagerAdapter {
 
@@ -23,7 +21,7 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int position) {
         switch (position) {
             case 0: return new HomeFragment();
-            case 1: return new WorksListFragment();
+            case 1: return new RatingFragment();
             //case 2: return new PayFragment();
             //case 3: return new DiscountFragment();
             case 2: return new PersonalFragment();

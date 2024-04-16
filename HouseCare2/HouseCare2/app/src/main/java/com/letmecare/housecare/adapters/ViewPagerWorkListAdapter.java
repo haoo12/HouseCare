@@ -7,9 +7,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.letmecare.housecare.fragment.FutureWorkFragment;
-import com.letmecare.housecare.fragment.HomeFragment;
 import com.letmecare.housecare.fragment.PastWorkFragment;
-import com.letmecare.housecare.fragment.WorksListFragment;
 
 public class ViewPagerWorkListAdapter extends FragmentStatePagerAdapter {
 
